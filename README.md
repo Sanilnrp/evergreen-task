@@ -11,7 +11,7 @@
 - cp .env.example .env
 - php artisan key:generate
 
-#### create the database and enter the details in the .env file and run these commands in the terminal
+#### Create the database and enter the details in the .env file and run these commands in the terminal
 
 - php artisan migrate
 - php artisan db:seed
