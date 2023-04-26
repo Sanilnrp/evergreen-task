@@ -1,9 +1,9 @@
-## Versions
+## Technologies
 
 - PHP - ^8.1
 - Laravel - ^10.8
 
-## Steps to install
+## Installation
 
 #### Go to the root path of the project and run these commands in the terminal
 
