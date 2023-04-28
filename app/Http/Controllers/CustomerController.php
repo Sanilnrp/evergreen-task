@@ -80,6 +80,7 @@ class CustomerController extends Controller
             DB::beginTransaction();
             try {
                 $data = $request->all();
+                $data['user_id'] = Auth::id();
                 $customer->fill($data)->save();
                 DB::commit();
                 return redirect('customer')->with('success', 'Customer updated successfully');
